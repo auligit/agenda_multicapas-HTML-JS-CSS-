@@ -1,0 +1,152 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+/* Estilos globales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f1f1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/* Estilos para la sección de agregar contacto */
+.row1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.col1 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 50%;
+}
+
+.col1 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.imp1,
+.imp2,
+.imp3 {
+  margin-bottom: 10px;
+}
+
+.imp1 label,
+.imp2 label,
+.imp3 label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.imp1 input,
+.imp2 input,
+.imp3 input {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.btn-enviar {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Estilos para la sección de contactos */
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.col2 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 80%;
+}
+
+.col2 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-contact table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.info-contact th,
+.info-contact td {
+  text-align: left;
+  padding: 8px;
+}
+
+.info-contact th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.info-contact tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.info-contact tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.title h1 {
+  font-size: 32px;
+}
+
+.font {
+  font-size: 18px;
+}
